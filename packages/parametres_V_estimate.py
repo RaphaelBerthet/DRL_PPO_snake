@@ -1,0 +1,9 @@
+EPSILON_CLIP_VALUE = 0.2
+TAILLE_BATCHS = 64
+NB_ENTRAINEMENT_BATCH = 10
+learning_rate = 0.0003
+NB_NEURONES_LAYER1 = 128
+NB_NEURONES_LAYER2 = 64
+MAX_NORME_GRADIENT = 3  # norme 2
+DELTA_HUBER_LOSS = 1
+PERIODE_GEL_V_OLD = 10  # nb d'entrainements de V avant de resynchroniser V_old
